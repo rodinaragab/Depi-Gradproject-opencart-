@@ -1,0 +1,25 @@
+<suite name="Suite1" verbose="1">
+
+
+    
+ <test name="Regression1">
+        <classes>
+            <class name="Tests.RegisterTest">
+                <methods>
+                    <include name="testValidRegistration"></include>
+                </methods>
+            </class>
+            <class name="Tests.LoginTests">
+
+
+                <methods>
+                    <include name="testLoginWithValidCredentials"></include>
+                </methods>
+
+
+
+
+            </class>
+        </classes>
+    </test>
+</suite>
